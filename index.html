@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jadwal X TJKT 1</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+        <div>
+            <p class="label">SMK • TJKT</p>
+
+            <h1>Jadwal X TJKT 1</h1>
+
+            <p id="hari">Memuat hari...</p>
+        </div>
+
+        <div class="clock">
+            <span id="jam">00:00</span>
+
+            <small id="minggu">
+                Minggu ...
+            </small>
+        </div>
+    </header>
+
+    <!-- JADWAL SEKARANG -->
+    <section class="now-card">
+
+        <div class="title">
+            <span>🔴</span>
+            Sedang Berlangsung
+        </div>
+
+        <h2 id="pelajaran">
+            Memuat...
+        </h2>
+
+        <p id="waktu">
+            --
+        </p>
+
+        <!-- RUNNING TEXT -->
+        <div class="running-text">
+            <div id="runningText">
+                📚 Selamat belajar • Semoga harimu menyenangkan • H11 PROJECT • Jadwal X TJKT 1 •
+            </div>
+        </div>
+
+        <p class="small">
+            H 11 PROJECT
+        </p>
+
+    </section>
+
+    <!-- JADWAL BERIKUTNYA -->
+    <section class="next-card">
+
+        <p class="title">
+            ⏭ Selanjutnya
+        </p>
+
+        <h3 id="berikutnya">
+            -
+        </h3>
+
+        <p id="waktuBerikutnya">
+            -
+        </p>
+
+    </section>
+
+    <!-- JADWAL HARI INI -->
+    <section class="schedule">
+
+        <h2>
+            📅 Jadwal Hari Ini
+        </h2>
+
+        <div id="daftarJadwal">
+            Memuat jadwal...
+        </div>
+
+    </section>
+
+    <!-- TOMBOL JADWAL BESOK -->
+    <button id="btnBesok" class="btn-besok">
+        📆 Lihat Jadwal Besok
+    </button>
+
+    <!-- JADWAL BESOK -->
+    <section id="jadwalBesok" class="schedule hidden">
+
+        <h2>
+            📆 Jadwal Besok
+        </h2>
+
+        <div id="infoBesok">
+            -
+        </div>
+
+    </section>
+
+</div>
+
+<script type="module" src="script.js"></script>
+
+</body>
+</html>
